@@ -4,6 +4,8 @@ import 'models/test_result.dart';
 import 'package:co_2/chart.dart'; // Ensure this points to your ProgressChartPage file
 
 class HistoryPage extends StatelessWidget {
+  const HistoryPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

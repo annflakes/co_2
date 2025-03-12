@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 class ColorNamingPracticePage extends StatefulWidget {
+  const ColorNamingPracticePage({super.key});
+
   @override
   _ColorNamingPracticePageState createState() =>
       _ColorNamingPracticePageState();
@@ -79,7 +81,7 @@ class _ColorNamingPracticePageState extends State<ColorNamingPracticePage> {
                 onPressed: () => checkAnswer(option),
                 child: Text(option),
               );
-            }).toList(),
+            }),
             if (feedbackMessage != null) ...[
               SizedBox(height: 20),
               Text(

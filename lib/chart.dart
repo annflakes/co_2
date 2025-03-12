@@ -4,6 +4,8 @@ import 'database/database_helper.dart';
 import 'models/test_result.dart';
 
 class ProgressChartPage extends StatelessWidget {
+  const ProgressChartPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

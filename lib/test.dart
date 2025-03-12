@@ -3,6 +3,8 @@ import 'database/database_helper.dart'; // Import your database helper
 import 'models/test_result.dart'; // Import your TestResult model
 
 class ColorBlindnessTestPage extends StatefulWidget {
+  const ColorBlindnessTestPage({super.key});
+
   @override
   _ColorBlindnessTestPageState createState() => _ColorBlindnessTestPageState();
 }

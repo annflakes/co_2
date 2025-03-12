@@ -5,6 +5,8 @@ import 'package:palette_generator/palette_generator.dart';
 import 'dart:io';
 
 class CameraScreen extends StatefulWidget {
+  const CameraScreen({super.key});
+
   @override
   _CameraScreenState createState() => _CameraScreenState();
 }

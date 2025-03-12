@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:co_2/sigin.dart';
 
 class SignupScreen extends StatefulWidget {
+  const SignupScreen({super.key});
+
   @override
   _SignupScreenState createState() => _SignupScreenState();
 }
@@ -72,7 +74,7 @@ class _SignupScreenState extends State<SignupScreen> {
           backgroundColor: Colors.transparent,
           shadowColor: Colors.transparent,
         ).copyWith(
-          backgroundColor: MaterialStateProperty.all<Color>(
+          backgroundColor: WidgetStateProperty.all<Color>(
             Colors.transparent,
           ),
         ),

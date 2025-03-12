@@ -6,6 +6,8 @@ import 'package:co_2/practice.dart';
 import 'package:co_2/history_page.dart';
 
 class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

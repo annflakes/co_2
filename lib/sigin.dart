@@ -2,6 +2,8 @@ import 'package:co_2/home.dart';
 import 'package:flutter/material.dart';
 
 class SignInScreen extends StatefulWidget {
+  const SignInScreen({super.key});
+
   @override
   _SignInScreenState createState() => _SignInScreenState();
 }
@@ -69,7 +71,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       backgroundColor: Colors.transparent,
                       shadowColor: Colors.transparent,
                     ).copyWith(
-                      backgroundColor: MaterialStateProperty.all<Color>(
+                      backgroundColor: WidgetStateProperty.all<Color>(
                         Colors.transparent,
                       ),
                     ),
