@@ -28,7 +28,6 @@ class EducationalContentPage extends StatelessWidget {
           'Depending on the type, certain colors may appear indistinguishable, muted, or altered. For example, red and green may look similar in red-green color blindness.',
     },
   ];
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
